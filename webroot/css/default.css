@@ -1,0 +1,44 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+body,html{
+    height: 100%;
+}
+.sc-col-primary, li a{
+    color:#20486B !important;
+}
+
+.sc-bg-none{
+    background-color: transparent;
+    z-index: 1000;
+    border-bottom: 2px ridge #20486B;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 200px rgba(62,39,35,0.4);
+}
+.sc-bg-none a,.sc-bg-none h5,.sc-text-shadow {
+    text-shadow: 2px 2px #20486B;
+    color: #ffffff !important;
+}
+.sc-secondary-bg{
+    background-color: #20486B !important;
+}
+
+.sc-footer{
+    border-top: 8px solid #006064;
+    width: 100%;
+    bottom:0;
+    background-image: linear-gradient(to right, #000000, #20486B , #000000);
+}
+.brand-logo{
+    height: 100%;
+    background: white;
+    border-radius: 25%;
+}
+.slider-top{
+    width: 100%;
+    transform: translateY(-11%);
+}
+.sc-slider-item img{
+    object-fit: cover;
+    height: 100%;
+}
