@@ -25,8 +25,10 @@
                             We serve all the Chicagoland area and surrounding suburbs. </p>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="sc-col-primary"><i class="tiny material-icons">business_center</i> 
-                        Scarlet Services</a>
+                        <a href="#" class="sc-col-primary">
+                        <i class="tiny material-icons">business</i> 
+                        Scarlet Services
+                        </a>
                     </div>
                 </div>
             </div>
@@ -55,8 +57,10 @@
                             company for your next project. </p>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="sc-col-primary"><i class="tiny material-icons">business_center</i> 
-                        Scarlet Services</a>
+                        <a href="#" class="sc-col-primary">
+                            <i class="tiny material-icons">business</i> 
+                                Scarlet Services
+                        </a>
                     </div>
                 </div>
             </div>
