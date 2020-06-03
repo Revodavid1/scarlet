@@ -29,6 +29,10 @@ body,html{
     bottom:0;
     background-image: linear-gradient(to right, #000000, #20486B , #000000);
 }
+.sc-footer-main-text{
+    border-bottom: 2px solid white;
+    padding-bottom: 16px;
+}
 .brand-logo{
     height: 100%;
     background: white;
@@ -41,4 +45,24 @@ body,html{
 .sc-slider-item img{
     object-fit: cover;
     height: 100%;
+}
+.page-title-bar{
+    background-image: linear-gradient(to right, #000000, #20486B , #000000);
+    border-bottom: 4px solid #006064;
+    border-top: 4px solid #006064;
+    border-top: 4px solid #20486B;
+    border-bottom: 4px solid #20486B;
+    margin:0;
+    color: white;
+    padding:16px;
+}
+.parallax-container{
+    height: 200px;
+}
+nav{
+    background-image: linear-gradient(to right, #000000, #20486B , #000000);
+    border-bottom: 4px solid #006064;
+}
+.carousel-item{
+    margin: 0 8px;
 }
