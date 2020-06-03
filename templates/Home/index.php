@@ -43,7 +43,13 @@
     </div>
 </div>
 <div class="center">
-    <h4 class="sc-col-primary"> Our Services <a href="#"><i class="material-icons center">arrow_forward</i></a></h4>
+    <h4 class="sc-col-primary"> Our Services
+        <?= $this->Html->Link($this->Html->tag('i','arrow_forward', 
+            array('class'=>'material-icons center')),
+            array('controller'=>'Services','action' => 'index'),
+            array('escape'=>false))
+        ?>
+    </h4>
 </div>
 <div class="carousel center" style="height:150px">
         <div class="carousel-item white black-text">

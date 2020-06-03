@@ -28,7 +28,7 @@
             <ul class="right sc-col-primary hide-on-med-and-down">
                 <li><?= $this->Html->Link('Home', ['controller'=>'Home','action' => 'index']) ?></li>
                 <li><?= $this->Html->Link('About Us', ['controller'=>'About','action' => 'index']) ?> </li>
-                <li><?= $this->Html->Link('Services', ['controller'=>'About','action' => 'index']) ?> </li>
+                <li><?= $this->Html->Link('Services', ['controller'=>'Services','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Projects', ['action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Contact', ['action' => 'index']) ?></li>            
             </ul>
@@ -41,33 +41,33 @@
                 array('escape' => false))?>
                 <h5 class="white-text sidenav-text">Scarlet Construction</h5>
         </div>
-        <li class="z-depth-5"><?= $this->Html->Link('Home ' . $this->Html->tag('i','home', 
+        <li class="z-depth-5"><?= $this->Html->Link('Home' . $this->Html->tag('i','home', 
                             array('class'=>'material-icons white-text small')),
                             array('controller'=>'Home','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>
-        <li class="z-depth-5"><?= $this->Html->Link('About Us ' . $this->Html->tag('i','people', 
+        <li class="z-depth-5"><?= $this->Html->Link('About Us' . $this->Html->tag('i','people', 
                             array('class'=>'material-icons white-text small')),
                             array('controller'=>'About','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>
-        <li class="z-depth-5"><?= $this->Html->Link('Services ' . $this->Html->tag('i','business', 
+        <li class="z-depth-5"><?= $this->Html->Link('Services' . $this->Html->tag('i','business', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'About','action' => 'index'),
+                            array('controller'=>'Services','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>
-        <li class="z-depth-5"><?= $this->Html->Link('Projects ' . $this->Html->tag('i','business_center', 
+        <li class="z-depth-5"><?= $this->Html->Link('Projects' . $this->Html->tag('i','business_center', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'About','action' => 'index'),
+                            array('controller'=>'Services','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>
-        <li class="z-depth-5"><?= $this->Html->Link('Contact ' . $this->Html->tag('i','call', 
+        <li class="z-depth-5"><?= $this->Html->Link('Contact' . $this->Html->tag('i','call', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'About','action' => 'index'),
+                            array('controller'=>'Services','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>  

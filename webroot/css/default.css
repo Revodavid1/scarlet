@@ -8,8 +8,15 @@ nav{
     background-image: linear-gradient(to right, #000000, #20486B , #000000);
     border-bottom: 4px solid #006064;
 }
-.sc-col-primary, li a{
+.media-fab-bg{
+    background-image: linear-gradient(to right,#20486B, darkcyan, yellow, red,pink ) !important;
+}
+.sc-col-primary, li a, .card-action a{
     color:#20486B !important;
+}
+
+.card{
+    margin: 15px 0;
 }
 
 .sc-bg-none {
@@ -33,7 +40,7 @@ nav{
     margin: 8px;
 }
 
-.sidenav li a, .sidenav-text{
+.sidenav li a, .sidenav-text, .sc-services-title{
     padding: 4px 8px;
     color: white !important;
     text-shadow: 0 1.5px black;
