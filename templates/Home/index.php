@@ -53,7 +53,7 @@
 </div>
 <div class="carousel center" style="height:150px">
         <div class="carousel-item white black-text">
-            <h4>Carpentary</h4>
+            <h4>Carpentry</h4>
         </div>
         <div class="carousel-item white black-text">
             <h4>Drywall</h4>

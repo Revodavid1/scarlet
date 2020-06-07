@@ -15,6 +15,18 @@ nav{
     color:#20486B !important;
 }
 
+.sticky-spy {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+}
+
+.table-of-contents a.active{
+    border-left: 2px solid #20486B !important;
+}
+.table-of-contents a:hover{
+    border-left: 1px solid #20486B !important;
+}
 .card{
     margin: 15px 0;
 }
@@ -40,7 +52,7 @@ nav{
     margin: 8px;
 }
 
-.sidenav li a, .sidenav-text, .sc-services-title{
+.sidenav li a, .sidenav-text, .sc-services-title, .sc-projects-title{
     padding: 4px 8px;
     color: white !important;
     text-shadow: 0 1.5px black;

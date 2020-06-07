@@ -29,8 +29,8 @@
                 <li><?= $this->Html->Link('Home', ['controller'=>'Home','action' => 'index']) ?></li>
                 <li><?= $this->Html->Link('About Us', ['controller'=>'About','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Services', ['controller'=>'Services','action' => 'index']) ?> </li>
-                <li><?= $this->Html->Link('Projects', ['action' => 'index']) ?> </li>
-                <li><?= $this->Html->Link('Contact', ['action' => 'index']) ?></li>            
+                <li><?= $this->Html->Link('Projects', ['controller'=>'Projects','action' => 'index']) ?> </li>
+                <li><?= $this->Html->Link('Contact', ['controller'=>'Projects','action' => 'index']) ?></li>            
             </ul>
         </div>      
     </nav>
@@ -61,13 +61,13 @@
         </li>
         <li class="z-depth-5"><?= $this->Html->Link('Projects' . $this->Html->tag('i','business_center', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'Services','action' => 'index'),
+                            array('controller'=>'Projects','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>
         <li class="z-depth-5"><?= $this->Html->Link('Contact' . $this->Html->tag('i','call', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'Services','action' => 'index'),
+                            array('controller'=>'Projects','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>  
@@ -79,6 +79,9 @@
             $('.parallax').parallax();
             $('.carousel').carousel({numVisible:2,padding:50});
             $('.sidenav').sidenav();
+            $('.modal').modal();
+            $('.materialboxed').materialbox();
+            $('.scrollspy').scrollSpy();
             autoplay();
             function autoplay() {
                 $('.carousel').carousel('next');
