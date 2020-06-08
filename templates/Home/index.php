@@ -5,38 +5,42 @@
     <div class="slider">
         <ul class="slides">
             <li class="sc-slider-item">
-                <?=$this->Html->image('scc_mbarena_blackhawks.jpg', ['alt' => 'Blackhawks Project']);?>
+                <?=$this->Html->image('JohnHStroge4thFloorPatientArea.jpg', ['alt' => 'John H Stroger Patient Area']);?>
                 <div class="caption left-align">
-                    <h3 class="teal-text sc-text-shadow">Featured Projects</h3>
-                    <h5 class="light white-text text-darken-3">Blackhawks Practice Facility</h5>
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">John H Stroger Patient Area</h5>
                 </div>
             </li>
             <li class="sc-slider-item">
-                <?=$this->Html->image('scc_starbucks.jpg', ['alt' => 'Starbucks Project']);?>
+                <?=$this->Html->image('StarbucksOHareInternationalAirportTerminal2.jpg', ['alt' => 'Starbucks Project']);?>
                 <div class="caption left-align">
-                    <h3 class="teal-text sc-text-shadow">Featured Projects</h3>
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
                     <h5 class="light white-text text-darken-3 sc-text-shadow">
-                        Starbucks @ O'Hare International Terminal 1
+                        Starbucks @ O'Hare International Terminal 2
                     </h5>
                 </div>
             </li>
             <li class="sc-slider-item">
-                <?=$this->Html->image('scc_chicago_plibrary.jpg', ['alt' => 'Chicago Public Library Project']);?>
+                <?=$this->Html->image('WickerParkSeafoodSushi.jpg', ['alt' => 'Wicker Park Seafood & Sushi']);?>
                 <div class="caption left-align">
-                    <h3 class="teal-text sc-text-shadow">Featured Projects</h3>
-                    <h5 class="light white-text text-darken-3">Chicago Public Library</h5>
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">Wicker Park Seafood & Sushi</h5>
                 </div>
             </li>
             <li class="sc-slider-item">
-                <?=$this->Html->image('scc_crsl9026.jpg', ['alt' => 'CRSL Project']);?>
+                <?=$this->Html->image('LittleVillageChicagoPublicLibrary.jpg', 
+                    ['alt' => 'Little Village Chicago Public Library']);?>
                 <div class="caption left-align">
-                    <h3 class="teal-text sc-text-shadow">Featured Projects</h3>
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">Little Village Chicago Public Library</h5>
                 </div>
             </li>
             <li class="sc-slider-item">
-                <?=$this->Html->image('scc_bb_court.jpg', ['alt' => 'Basketball Court Project']);?>
+                <?=$this->Html->image('DixmoorIndoorRecreationalCenter.jpg', 
+                    ['alt' => 'Dixmoor Indoor Recreational Center']);?>
                 <div class="caption left-align">
-                    <h3 class="teal-text sc-text-shadow">Featured Projects</h3>
+                    <h3 class="sc-text-shadow sc-text-line sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">Dixmoor Indoor Recreational Center</h5>
                 </div>
             </li>
         </ul>

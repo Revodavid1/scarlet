@@ -15,6 +15,28 @@ nav{
     color:#20486B !important;
 }
 
+.text-regular{
+    font-size: 13px !important;
+}
+
+.sc-project-card-content{
+    padding: 8px !important;
+    height: 100px !important;
+}
+
+.sc-text-line{
+    border-bottom: 2px ridge white;
+    padding-bottom: 8px;
+    width: max-content;
+}
+
+.sc-projects-title-secondary{
+    background-image: linear-gradient(to right, #000000, #20486B , #ffffff);
+    margin: 8px 0;
+    color: white;
+    padding:16px;
+}
+
 .sticky-spy {
     position: -webkit-sticky;
     position: sticky;
@@ -73,6 +95,9 @@ nav{
     width: 100%;
     bottom:0;
     background-image: linear-gradient(to right, #000000, #20486B , #000000);
+}
+.error-message{
+    color:#d50000 ;
 }
 .sc-footer-main-text{
     border-bottom: 2px solid white;

@@ -8,6 +8,7 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -30,7 +31,7 @@
                 <li><?= $this->Html->Link('About Us', ['controller'=>'About','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Services', ['controller'=>'Services','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Projects', ['controller'=>'Projects','action' => 'index']) ?> </li>
-                <li><?= $this->Html->Link('Contact', ['controller'=>'Projects','action' => 'index']) ?></li>            
+                <li><?= $this->Html->Link('Contact', ['controller'=>'Contact','action' => 'index']) ?></li>            
             </ul>
         </div>      
     </nav>
@@ -67,7 +68,7 @@
         </li>
         <li class="z-depth-5"><?= $this->Html->Link('Contact' . $this->Html->tag('i','call', 
                             array('class'=>'material-icons white-text small')),
-                            array('controller'=>'Projects','action' => 'index'),
+                            array('controller'=>'Contact','action' => 'index'),
                             array('escape' => false))
             ?>
         </li>  
@@ -95,13 +96,17 @@
         </div>
     </div>
 
-    <div class="fixed-action-btn">
+    <div class="fixed-action-btn hide-on-large-only">
         <a class="btn-floating btn-large sc-secondary-bg">
             <i class="large material-icons">contacts</i>
         </a>
         <ul>
-            <li><a class="btn-floating cyan"><i class="material-icons">contact_phone</i></a></li>
-            <li><a class="btn-floating red darken-1"><i class="material-icons">contact_mail</i></a></li>
+            <li><a class="btn-floating cyan" href="tel:614-937-3364">
+                <i class="material-icons">contact_phone</i></a>
+            </li>
+            <li><a class="btn-floating red darken-1" href="mailto:info@scarlet-us.com">
+                <i class="material-icons">contact_mail</i></a>
+            </li>
         </ul>
     </div>
           
@@ -122,8 +127,8 @@
               </div>
               <div class="col l4 s12 center">
                 <i class="material-icons">email</i>
-                <p><a href="mailto:admin@scarlet-us.com" class="white-text"> 
-                    admin@scarlet-us.com</a></p>
+                <p><a href="mailto:info@scarlet-us.com" class="white-text"> 
+                    info@scarlet-us.com</a></p>
               </div>
         </div>
           </div>

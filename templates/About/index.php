@@ -19,10 +19,10 @@
                     <div class="card-content">
                         <h4 class="sc-col-primary"><?=$this->Html->image('scarlet.png', 
                             ['alt' => 'scarlet','class'=>'right', 'height'=>'45px']);?>Our Company</h4>
-                        <p>Scarlet Construction is a company created in 2015 to serve and provide the best quality work in Carpentry, 
-                            Drywall, Acoustical Ceiling, and Millwork. 
-                            Our team has over 20 years of experience in high quality Carpentry work. 
-                            We serve all the Chicagoland area and surrounding suburbs. </p>
+                        <p>Scarlet Construction was created 2015 to serve and provide the best quality work in Carpentry,
+                             Drywall, Acoustical Ceiling, and Millwork. 
+                             Our team has over 20 years of experience in high quality Carpentry work. 
+                             We serve all the Chicagoland area and surrounding suburbs.</p>
                     </div>
                     <div class="card-action">
                         <?= $this->Html->Link($this->Html->tag('i','business', 
@@ -49,7 +49,7 @@
                     <div class="card-content">
                         <h4 class="sc-col-primary"><?=$this->Html->image('scarlet.png', 
                             ['alt' => 'scarlet','class'=>'right', 'height'=>'45px']);?> Our Mission</h4>
-                        <p>The mission of Scarlet Construction as a Contractor is to provide our customers with cost 
+                        <p>The mission of Scarlet Construction as a contractor is to provide our customers with cost 
                             effective solutions to construction needs without sacrificing quality and satisfaction. 
                             The key to the success of any construction project is a company committed to client 
                             satisfaction, possessing the skills and experience to exceed expectations. 

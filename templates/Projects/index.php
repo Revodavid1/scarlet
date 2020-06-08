@@ -13,79 +13,180 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col s12 m6 l6">
-            <div id="aviation" class="section scrollspy">
-                <div class="card">
-                    <div class="card-image">
-                        <?=$this->Html->image('StarbucksOHareInternationalAirportTerminal2.jpg', 
-                        ['alt' => 'Projects','height'=>'200']);?>
-                        <span class="card-title sc-projects-title"> <i class="material-icons white-text small">airplanemode_active</i>
-                        Aviation
-                        </span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light media-fab-bg">
-                            <i class="material-icons">perm_media</i>
-                        </a>
+        <div class="col s12 m9 l9">
+            <div class="sc-projects-title-secondary section scrollspy" id="aviation">
+                <i class="material-icons sc-text-shadow small right">airplanemode_active</i>
+                Aviation
+            </div>
+            <div class="row">
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('MIDWAYINTAIRPORTSTATICDISPLAYIMPROVEMENTS1.jpg', 
+                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Chicago Midway International Improvements</p>
+                        </div>
                     </div>
-                    <div class="card-content" style="padding:0">
-                        <ul class="collection sc-col-primary z-depth-3">
-                            <li class="collection-item z-depth-1">Chicago Midway International Improvements</li>
-                            <li class="collection-item z-depth-2">Nuts on Clark @ O'Hare International Terminal 5</li>
-                            <li class="collection-item z-depth-3">Starbucks, O'Hare International Terminal 1</li>
-                            <li class="collection-item z-depth-4">Starbucks, O'Hare International Terminal 2 </li>
-                            <li class="collection-item z-depth-5">Wicker Park Sushi, O'Hare International Terminal 1</li>
-                        </ul>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('NutsonClarkOhareInternationalAirport.jpg', 
+                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Nuts on Clark @ O'Hare International Terminal 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scc_starbucks.jpg', 
+                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Starbucks, O'Hare International Terminal 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('StarbucksOHareInternationalAirportTerminal2.jpg', 
+                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Starbucks, O'Hare International Terminal 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('WickerParkSeafoodSushi.jpg', 
+                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Wicker Park Sushi, O'Hare International Terminal 1</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="healthcare" class="section scrollspy">
-                <div class="card">
-                    <div class="card-image">
-                        <?=$this->Html->image('JohnHStroger4thFloor.jpg', 
-                        ['alt' => 'Projects','height'=>'200']);?>
-                        <span class="card-title sc-projects-title"> 
-                            <i class="material-icons white-text small">local_hospital</i>
-                            Health Care
-                        </span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light media-fab-bg">
-                            <i class="material-icons">perm_media</i>
-                        </a>
+            <div class="sc-projects-title-secondary section scrollspy" id="healthcare">
+                <i class="material-icons green-text small right">local_hospital</i>
+                Health Care
+            </div>
+            <div class="row">
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('JohnHStroger4thFloor.jpg', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">John H. Stroger Cook County 4th Floor Renovation</p>
+                        </div>
                     </div>
-                    <div class="card-content" style="padding:0">
-                        <ul class="collection sc-col-primary z-depth-3">
-                            <li class="collection-item z-depth-1">John H. Stroger Cook County 4th Floor Renovation</li>
-                            <li class="collection-item z-depth-2">The University of Chicago Harper Library Classroom Renovation</li>
-                            <li class="collection-item z-depth-3">The University of Chicago Medicine Billings M5 Renovation</li>
-                            <li class="collection-item z-depth-4">The University of Chicago Medicine Cummings 4th Floor</li>
-                            <li class="collection-item z-depth-5">The University of Medicine Outpatient Bone Marrow Transplant</li>
-                            <li class="collection-item z-depth-5">University of Chicago Medicine Biological Sciences Learning Center</li>
-                        </ul>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">The University of Chicago Harper Library Classroom Renovation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">The University of Chicago Medicine Billings M5 Renovation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">The University of Chicago Medicine Cummings 4th Floor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('UniversityofChicagoBoneMarrowClinic.jpg', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">The University of Medicine Outpatient Bone Marrow Transplant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">University of Chicago Medicine Biological Sciences Learning Center</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="highered" class="section scrollspy">
-                <div class="card">
-                    <div class="card-image">
-                        <?=$this->Html->image('scc_chicago_plibrary.jpg', 
-                        ['alt' => 'Projects','height'=>'200']);?>
-                        <span class="card-title sc-projects-title"> 
-                            <i class="material-icons white-text small">school</i>
-                            Higher Education
-                        </span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light media-fab-bg">
-                            <i class="material-icons">perm_media</i>
-                        </a>
+            <div class="sc-projects-title-secondary section scrollspy" id="highered">
+                <i class="material-icons indigo-text small right">school</i>
+                Higher Education
+            </div>
+            <div class="row">
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Advocate Health Care Lobby Renovation</p>
+                        </div>
                     </div>
-                    <div class="card-content" style="padding:0">
-                        <ul class="collection sc-col-primary z-depth-3">
-                            <li class="collection-item z-depth-1">Advocate Health Care Lobby Renovation</li>
-                            <li class="collection-item z-depth-3">CPS Various School Renovations</li>
-                            <li class="collection-item z-depth-5">Gwendolyn Brooks College Preparatory Academy Athletic Amenities</li>
-                        </ul>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">CPS Various School Renovations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <?=$this->Html->image('scarlet.png', 
+                                ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
+                        </div>
+                        <div class="card-content sc-project-card-content">
+                            <p class="text-regular center">Gwendolyn Brooks College Preparatory Academy Athletic Amenities</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col m3 l3 hide-on-small-only"></div>
         <div class="col s3 m3 l3 sticky-spy hide-on-small-only">
             <ul class="section table-of-contents">
                 <li><a href="#aviation">Aviation</a></li>
