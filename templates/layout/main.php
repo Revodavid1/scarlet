@@ -18,7 +18,7 @@
     <nav>
         <div class="nav-wrapper sc-bg-none">
             <div class="brand-logo center sc-nav-logo hide-on-med-and-down">
-                <?= $this->Html->Link($this->Html->image('scarlet.png', array('height'=>'70px')),
+                <?= $this->Html->Link($this->Html->image('sclogo.png', array('height'=>'100%')),
                 array('controller'=>'Home','action' => 'index'),
                 array('escape' => false))?>
             </div>
@@ -37,7 +37,7 @@
     </nav>
     <ul class="sidenav" id="mobile-nav">
         <div class="center sc-nav-logo">
-                <?= $this->Html->Link($this->Html->image('scarlet.png', array('height'=>'100px')),
+                <?= $this->Html->Link($this->Html->image('sclogo.png', array('height'=>'100px')),
                 array('controller'=>'Home','action' => 'index'),
                 array('escape' => false))?>
                 <h5 class="white-text sidenav-text">Scarlet Construction</h5>
@@ -101,7 +101,7 @@
             <i class="large material-icons">contacts</i>
         </a>
         <ul>
-            <li><a class="btn-floating cyan" href="tel:614-937-3364">
+            <li><a class="btn-floating cyan" href="tel:773-675-9181">
                 <i class="material-icons">contact_phone</i></a>
             </li>
             <li><a class="btn-floating red darken-1" href="mailto:info@scarlet-us.com">
@@ -123,7 +123,7 @@
               </div>
               <div class="col l4 s12 center">
                 <i class="material-icons">contact_phone</i>
-                <p><a href="tel:614-937-3364" class="white-text"> 614-937-3364</a></p>
+                <p><a href="tel:773-675-9181" class="white-text">773-675-9181</a></p>
               </div>
               <div class="col l4 s12 center">
                 <i class="material-icons">email</i>

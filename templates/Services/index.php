@@ -4,7 +4,7 @@
 </div>
 <div class="parallax-container">
       <div class="parallax">
-        <?=$this->Html->image('IMG_0125[1].jpg', ['alt' => 'Services Backdrop','height'=>'700px']);?>
+        <?=$this->Html->image('tools.jpg', ['alt' => 'Services Backdrop','height'=>'700px']);?>
       </div>
 </div>
 <div class="page-title-bar">
@@ -288,4 +288,8 @@
     </div>
 </div>
 
-    
+<div class="parallax-container">
+    <div class="parallax">
+        <?=$this->Html->image('tools.jpg', ['alt' => 'Services Backdrop','height'=>'700px']);?>
+    </div>
+</div>

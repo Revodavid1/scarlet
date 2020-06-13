@@ -14,6 +14,9 @@ nav{
 .sc-col-primary, li a, .card-action a{
     color:#20486B !important;
 }
+.sc-nav-logo{
+    padding: 8px;
+}
 
 .text-regular{
     font-size: 13px !important;

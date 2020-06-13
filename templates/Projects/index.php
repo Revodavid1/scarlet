@@ -22,17 +22,6 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('MIDWAYINTAIRPORTSTATICDISPLAYIMPROVEMENTS1.jpg', 
-                                ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
-                        </div>
-                        <div class="card-content sc-project-card-content">
-                            <p class="text-regular center">Chicago Midway International Improvements</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s6 m4 l4">
-                    <div class="card z-depth-2">
-                        <div class="card-image">
                             <?=$this->Html->image('NutsonClarkOhareInternationalAirport.jpg', 
                                 ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
@@ -55,7 +44,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('StarbucksOHareInternationalAirportTerminal2.jpg', 
+                            <?=$this->Html->image('sbMg0314.jpg', 
                                 ['alt' => 'airport projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -94,7 +83,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('harperexterior.jpg', 
                                 ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -105,7 +94,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('CRSL8513.jpg', 
                                 ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -116,7 +105,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('AV-2.jpg', 
                                 ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -138,7 +127,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('CRSL8723.jpg', 
                                 ['alt' => 'health care projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -155,7 +144,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('ahl.jpg', 
                                 ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -166,7 +155,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('EllisGaragepic3.png', 
                                 ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -177,7 +166,7 @@
                 <div class="col s6 m4 l4">
                     <div class="card z-depth-2">
                         <div class="card-image">
-                            <?=$this->Html->image('scarlet.png', 
+                            <?=$this->Html->image('EBB.jpg', 
                                 ['alt' => 'higher education projects','class'=>'materialboxed','height'=>'100px']);?>
                         </div>
                         <div class="card-content sc-project-card-content">
@@ -195,4 +184,9 @@
             </ul>
         </div>
     </div>
+</div>
+<div class="parallax-container">
+      <div class="parallax">
+        <?=$this->Html->image('scc_mbarena_blackhawks.jpg', ['alt' => 'Projects Backdrop','height'=>'700px']);?>
+      </div>
 </div>

@@ -5,14 +5,7 @@
     <div class="slider">
         <ul class="slides">
             <li class="sc-slider-item">
-                <?=$this->Html->image('JohnHStroge4thFloorPatientArea.jpg', ['alt' => 'John H Stroger Patient Area']);?>
-                <div class="caption left-align">
-                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
-                    <h5 class="light white-text text-darken-3">John H Stroger Patient Area</h5>
-                </div>
-            </li>
-            <li class="sc-slider-item">
-                <?=$this->Html->image('StarbucksOHareInternationalAirportTerminal2.jpg', ['alt' => 'Starbucks Project']);?>
+                <?=$this->Html->image('MG0329.jpg', ['alt' => 'Starbucks Project']);?>
                 <div class="caption left-align">
                     <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
                     <h5 class="light white-text text-darken-3 sc-text-shadow">
@@ -21,18 +14,18 @@
                 </div>
             </li>
             <li class="sc-slider-item">
-                <?=$this->Html->image('WickerParkSeafoodSushi.jpg', ['alt' => 'Wicker Park Seafood & Sushi']);?>
-                <div class="caption left-align">
-                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
-                    <h5 class="light white-text text-darken-3">Wicker Park Seafood & Sushi</h5>
-                </div>
-            </li>
-            <li class="sc-slider-item">
-                <?=$this->Html->image('LittleVillageChicagoPublicLibrary.jpg', 
+                <?=$this->Html->image('lvc0121.jpg', 
                     ['alt' => 'Little Village Chicago Public Library']);?>
                 <div class="caption left-align">
                     <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
                     <h5 class="light white-text text-darken-3">Little Village Chicago Public Library</h5>
+                </div>
+            </li>
+            <li class="sc-slider-item">
+                <?=$this->Html->image('JohnHStroge4thFloorPatientArea.jpg', ['alt' => 'John H Stroger Patient Area']);?>
+                <div class="caption left-align">
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">John H Stroger Patient Area</h5>
                 </div>
             </li>
             <li class="sc-slider-item">
@@ -41,6 +34,13 @@
                 <div class="caption left-align">
                     <h3 class="sc-text-shadow sc-text-line sc-text-line">Featured Projects</h3>
                     <h5 class="light white-text text-darken-3">Dixmoor Indoor Recreational Center</h5>
+                </div>
+            </li>
+            <li class="sc-slider-item">
+                <?=$this->Html->image('i-NL9Qq7S-M.jpg', ['alt' => 'Wicker Park Seafood & Sushi']);?>
+                <div class="caption left-align">
+                    <h3 class="sc-text-shadow sc-text-line">Featured Projects</h3>
+                    <h5 class="light white-text text-darken-3">Wicker Park Seafood & Sushi</h5>
                 </div>
             </li>
         </ul>

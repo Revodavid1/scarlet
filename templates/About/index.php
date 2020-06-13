@@ -4,7 +4,7 @@
 </div>
 <div class="parallax-container">
       <div class="parallax">
-        <?=$this->Html->image('scc_crsl9026.jpg', ['alt' => 'Starbucks Project','height'=>'700px']);?>
+        <?=$this->Html->image('croom.jpg', ['alt' => 'About Us Prop','height'=>'700px']);?>
       </div>
 </div>
 <div class="page-title-bar">
@@ -38,7 +38,7 @@
 </div>
 <div class="parallax-container">
       <div class="parallax">
-        <?=$this->Html->image('scc_crsl9026.jpg', ['alt' => 'Starbucks Project','height'=>'700px']);?>
+        <?=$this->Html->image('croom.jpg', ['alt' => 'About Us Prop','height'=>'700px']);?>
       </div>
 </div>
 <div class="container">
@@ -69,5 +69,8 @@
         </div>
     </div>
 </div>
-
-      
+<div class="parallax-container">
+      <div class="parallax">
+        <?=$this->Html->image('croom.jpg', ['alt' => 'About Us Prop','height'=>'700px']);?>
+      </div>
+</div>

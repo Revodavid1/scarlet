@@ -1,7 +1,7 @@
 <?= $this->Html->css('default') ?>
 <div class="parallax-container">
       <div class="parallax">
-        <?=$this->Html->image('UniversityofChicago10thFloor.jpg', ['alt' => 'Starbucks Project','height'=>'700px']);?>
+        <?=$this->Html->image('chi.jpg', ['alt' => 'Starbucks Project','height'=>'700px']);?>
       </div>
 </div>
 <div class="page-title-bar">
@@ -22,8 +22,8 @@
                         <div class="row hide-on-med-and-up">
                             <div class="col s6 center">
                                 <i class="material-icons">contact_phone</i>
-                                <p><a href="tel:614-937-3364" class="white-text">
-                                    614-937-3364</a></p>
+                                <p><a href="tel:773-675-9181" class="white-text">
+                                    773-675-9181</a></p>
                             </div>
                             <div class="col s6">
                                 <i class="material-icons">email</i>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="card-action center z-depth-3">
                         <i class="material-icons sc-col-primary">contact_phone</i>
-                        <p><a href="tel:614-937-3364">614-937-3364</a></p>
+                        <p><a href="tel:773-675-9181">773-675-9181</a></p>
                     </div>
                     <div class="card-action center z-depth-5">
                         <i class="material-icons red-text">email</i>
@@ -82,4 +82,9 @@
             </div>
         </div>
     </div>
+</div>
+<div class="parallax-container">
+      <div class="parallax">
+        <?=$this->Html->image('chi.jpg', ['alt' => 'Starbucks Project','height'=>'700px']);?>
+      </div>
 </div>
