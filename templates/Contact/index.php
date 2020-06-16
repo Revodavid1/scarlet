@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="g-recaptcha col s12" data-theme="dark" style="transform:scale(0.77);
                             -webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"
-                        data-sitekey="6LfqLgEVAAAAABpdxG48ccID9hfb48Gbjx1TWamb"></div>
+                        data-sitekey="<?php echo $publiccaptchakey;?>"></div>
                     </div>
                     <?= $this->Form->button(('Submit'),
                         ['type'=>'submit','name'=>'action','class'=>'btn waves-effect waves-light sc-secondary-bg']);?>
@@ -70,11 +70,11 @@
                         <p>20701 Oak Lane Drive,</p>
                         <p>Olympia Fields, IL 60461.</p>
                     </div>
-                    <div class="card-action center z-depth-3">
+                    <div class="card-action center z-depth-2">
                         <i class="material-icons sc-col-primary">contact_phone</i>
                         <p><a href="tel:773-675-9181">773-675-9181</a></p>
                     </div>
-                    <div class="card-action center z-depth-5">
+                    <div class="card-action center z-depth-3">
                         <i class="material-icons red-text">email</i>
                         <p><a href="mailto:info@scarlet-us.com">info@scarlet-us.com</a></p>
                     </div>

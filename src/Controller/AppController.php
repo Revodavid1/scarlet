@@ -17,6 +17,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Cake\Core\Configure;
 
 /**
  * Application Controller
@@ -43,6 +44,12 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        
+        
+        $publiccaptchakey = Configure::read('google_recatpcha_settings.site_key');
+        $recaptcha_secret = Configure::read('google_recatpcha_settings.secret_key');
+        $this->set('publiccaptchakey',$publiccaptchakey);
+        $this->set('recaptcha_secret',$recaptcha_secret);
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.
