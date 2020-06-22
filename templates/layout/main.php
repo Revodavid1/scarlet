@@ -31,6 +31,7 @@
                 <li><?= $this->Html->Link('About Us', ['controller'=>'About','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Services', ['controller'=>'Services','action' => 'index']) ?> </li>
                 <li><?= $this->Html->Link('Projects', ['controller'=>'Projects','action' => 'index']) ?> </li>
+                <li><?= $this->Html->Link('Career', ['controller'=>'Career','action' => 'index']) ?></li>  
                 <li><?= $this->Html->Link('Contact', ['controller'=>'Contact','action' => 'index']) ?></li>            
             </ul>
         </div>      
@@ -66,6 +67,12 @@
                             array('escape' => false))
             ?>
         </li>
+        <li class="z-depth-5"><?= $this->Html->Link('Career' . $this->Html->tag('i','work', 
+                            array('class'=>'material-icons white-text small')),
+                            array('controller'=>'Career','action' => 'index'),
+                            array('escape' => false))
+            ?>
+        </li>  
         <li class="z-depth-5"><?= $this->Html->Link('Contact' . $this->Html->tag('i','call', 
                             array('class'=>'material-icons white-text small')),
                             array('controller'=>'Contact','action' => 'index'),
