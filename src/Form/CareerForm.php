@@ -29,8 +29,7 @@ class CareerForm extends Form
             ->minLength('additional_information', 1)
             ->minLength('address', 1)
             ->email('email')
-            ->minLength('phone', 10)
-            ->maxLength('phone',10);
+            ->minLength('phone', 1);
         return $validator;
     }
 
