@@ -12,10 +12,10 @@
     <h5>Services</h5>
 </div>
 <div class="row">
-        <div class="col s12 m12">
-            <div class="card">
+    <div class="col s12 m12">
+        <div class="card">
             <div class="card-content">
-            <?=$this->Html->image('scarlet.png', 
+                <?=$this->Html->image('scarlet.png', 
                     ['alt' => 'scarlet','class'=>'right', 'height'=>'100px']);?>
                 <h4 class="sc-col-primary"> What We Offer</h4>
                 <p>Our wide range of carpentry-related services including framing, drywall, finish carpentry, 
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-<div class="container">
+    <div class="container">
     
     <div class="row">
         <div class="col s12 m4">

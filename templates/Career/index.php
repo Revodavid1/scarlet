@@ -11,18 +11,30 @@
 <div class="center">
     <?= $this->Flash->render() ?>
 </div>
+<div class="row">
+        <div class="col s12 m12">
+            <div class="card">
+                <div class="card-content">
+                    <h4 class="sc-col-primary"> Working With Us</h4>
+                    <p>A career at Scarlet begins with a desire to do outstanding work and dedication. 
+                        Whether you are just getting started or have an extensive background in carpentry, 
+                        we’d like to hear from you. Fill the form below or send your resume to 
+                        <a href="mailto:careers@scarlet-us.com">careers@scarlet-us.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 <div class="container">
+    
     <div class="row">
         <div class="col s12 m12 l12">
             <div class="card z-depth-2">
-                <div class="card-content">
-                    
+                <div class="card-content">       
                     <div class="sc-projects-title-secondary center">
                         <i class="material-icons sc-text-shadow small right">work</i>
                         Join Our Team 
                     </div>
-                    <p class="center">Fill the form below or send your resume to 
-                        <a href="mailto:careers@scarlet-us.com">careers@scarlet-us.com</a></p>
                     <?= $this->Form->create($career,array('type' => 'file'))?>
                     <div class="row">
                         <div class="input-field col s12">
